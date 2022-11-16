@@ -1,0 +1,38 @@
+@use 'variables' as v;
+.mobile-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.image-container{
+    width: 375px;
+    margin: 20px 0;
+    margin-left: -10px;
+
+    img{
+        width: 99%;
+    }
+}
+.title{
+    color: v.$Very-dark-blue;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.paragraph{
+    color: v.$Dark-grayish-blue;
+    line-height: 2;
+    font-size: .95rem;
+    
+}
+.button{
+    outline: none;
+    border: none;
+    background-color: v.$Soft-red;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    color: v.$Off-white;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    margin: 20px 0;
+}
